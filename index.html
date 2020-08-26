@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Mi sitio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="libs/css/bootstrap.min.css">
+	<script src="libs/jquery-3.3.1.min.js"></script>
+	<script src="libs/popper.js"></script>
+	<script src="libs/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<!--- Aqui va el script -->
+
+	<script>
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();
+		})
+	</script>
+
+</head>
+<body>
+	
+		<header>
+			<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark py-2 py-md-0">
+    		<a href="#" class="navbar-brand px-1 ml-3 mr-0  d-md-none">Mi sitio</a><button class="navbar-toggler bg-dark justify-content-left mr-2 ml-auto"  type="button" data-toggle="collapse" data-target="#mimenu"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="mimenu">
+				<ul class="navbar-nav mr-auto mt-3 mt-md-0">
+					<li class="nav-item d-none d-md-block px-1">
+    					<a href="index.html" class="nav-link px-2 ml-2 py-3"><span id="mis">Mi sitio</span></a>
+    				</li>
+    				<li class="nav-item ">
+    					<a href="index.html" class="nav-link px-2 py-3"><span id="mis1">Cursos</span></a>
+    				</li>
+    				<li class="nav-item ">
+    					<a href="sobremi.html" class="nav-link px-2 py-3"><span id="mis2">Sobre mi</span></a>
+    				</li>
+    				<li class="nav-item ">
+    				<a href="contacto.html" class="nav-link px-2 py-3"><span id="con">Contacto</span></a>
+    				</li>
+    			</ul>
+    		</div>
+    		<div class="d-none d-md-block ">
+    		<img src="img/login.svg" alt="login">
+    		<span class="text-white mr-3">Login</span>
+    	</div>
+    	</nav>
+   		</header>
+   		<div class="jumbotron jumbotron-fluid">
+  				<div class="container-fluid" >
+    				<h1 class="text-center">Los mejores productos de la red</h1>
+   					<h2 class="text-center">Nuestro eslogan</h2>
+  				</div>
+		</div>
+   		<main class="container-fluid">
+   			<div class="row">
+   				<div class="col-12 col-md-3 text-center p-1 p-sm-3 mt-3 mt-md-0">
+   					<img class="productos" data-toggle="tooltip" title="$250.00" data-placement="top" alt="bootstrap" src="img/bootstrap.jpg">
+   					<a data-toggle="modal" data-target="#ventana1" class="text-primary">Bootstrap</a>
+		<div class="modal fade pl-3" tabindex="-1" role="dialog" id="ventana1">
+			<div class="modal-dialog modal-lg" role="document" >
+				<div class="modal-content" >
+					<div class="modal-header">
+						<h5 class="modal-title ml-auto">Bootstrap</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						
+						<img src="img/bootstrap.jpg" alt="bootstrap" class="float-left pr-2">
+						<p class="text-justify p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem 
+						ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est.	
+						</p>
+						<p class="p-1">Precio: <span>$250.00</span></p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-white" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+   				</div>
+   				<div class="col-12 col-md-3 text-center p-1 p-sm-3 mt-5 mt-md-0">
+   					<img class="productos" data-toggle="tooltip" title="$250.00" data-placement="top" alt="indexedDB" src="img/indexedDB.jpg">
+   					<a data-toggle="modal" data-target="#ventana2" class="text-primary">IndexDB</a>
+		<div class="modal fade pl-3" tabindex="-1" role="dialog" id="ventana2">
+			<div class="modal-dialog modal-lg" role="document" >
+				<div class="modal-content" >
+					<div class="modal-header">
+						<h5 class="modal-title ml-auto">IndexDB</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						
+						<img src="img/indexedDB.jpg" alt="indexedDB" class="float-left pr-2">
+						<p class="text-justify p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem 
+						ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est.	
+						</p>
+						<p class="p-1">Precio: <span>$250.00</span></p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-white" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+   				</div>
+   				<div class="col-12 col-md-3 text-center p-1 p-sm-3 mt-5 mt-md-0">
+   					<img class="productos" data-toggle="tooltip" title="$300.00" data-placement="top" alt="javascriptDOM" src="img/javascriptDOM.jpg">
+   					<a data-toggle="modal" data-target="#ventana3" class="text-primary">Javascript DOM</a>
+		<div class="modal fade pl-3" tabindex="-1" role="dialog" id="ventana3">
+			<div class="modal-dialog modal-lg" role="document" >
+				<div class="modal-content" >
+					<div class="modal-header">
+						<h5 class="modal-title ml-auto">javascript DOM</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						
+						<img src="img/javascriptDOM.jpg" alt="javascriptDOM" class="float-left pr-2">
+						<p class="text-justify p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem 
+						ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est.	
+						</p>
+						<p class="p-1">Precio: <span>$300.00</span></p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-white" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+   				</div>
+   				<div class="col-12 col-md-3 text-center p-1 p-sm-3 mt-5 mt-md-0">
+   					<img class="productos" data-toggle="tooltip" title="$300.00" data-placement="top" alt="phonegapAvanzado" src="img/phonegapAvanzado.jpg">
+   					<a data-toggle="modal" data-target="#ventana4" class="text-primary">Phonegap Avanzado</a>
+		<div class="modal fade pl-3" tabindex="-1" role="dialog" id="ventana4">
+			<div class="modal-dialog modal-lg" role="document" >
+				<div class="modal-content" >
+					<div class="modal-header">
+						<h5 class="modal-title ml-auto">Phonegap Avanzado</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+
+						</button>
+					</div>
+					<div class="modal-body">
+						
+						<img src="img/phonegapAvanzado.jpg" alt="phonegapAvanzado" class="float-left pr-2">
+						<p class="text-justify p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem 
+						ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est.	
+						</p>
+						<p class="p-1">Precio: <span>$300.00</span></p>
+					
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-white" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+   				</div>
+   			</div>
+   			<div class="row mt-5">
+   				<div class="col-12 col-md-3 text-center p-5 p-sm-3 mt-5 mt-md-0">
+   					<img class="productos" data-toggle="tooltip" title="$275.00" data-placement="top" alt="angularJS" src="img/angularJS.jpg">
+
+   					<a data-toggle="modal" data-target="#ventana5" class="text-primary">AngularJS</a>
+		<div class="modal fade pl-3" tabindex="-1" role="dialog" id="ventana5">
+			<div class="modal-dialog modal-lg" role="document" >
+				<div class="modal-content" >
+					<div class="modal-header">
+						<h5 class="modal-title ml-auto">AngularJS</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+
+						</button>
+					</div>
+					<div class="modal-body">
+						
+						<img src="img/angularJS.jpg" alt="angularJS" class="float-left pr-2">
+						<p class="text-justify p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem 
+						ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est.	
+						</p>
+						<p class="p-1">Precio: <span>$275.00</span></p>
+					
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-white" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+   				</div>
+   				<div class="col-12 col-md-3 text-center p-1 p-sm-3 mt-5 mt-md-0">
+   					<img class="productos" data-toggle="tooltip" title="$200.00" data-placement="top" alt="objectiveC" src="img/objectiveC.jpg">
+   					
+   					<a data-toggle="modal" data-target="#ventana6" class="text-primary">Objetive C</a>
+		<div class="modal fade pl-3" tabindex="-1" role="dialog" id="ventana6">
+			<div class="modal-dialog modal-lg" role="document" >
+				<div class="modal-content" >
+					<div class="modal-header">
+						<h5 class="modal-title ml-auto">Objetive C</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+
+						</button>
+					</div>
+					<div class="modal-body">
+						
+						<img src="img/objectiveC.jpg" alt="objectiveC" class="float-left pr-2">
+						<p class="text-justify p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem 
+						ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est.	
+						</p>
+						<p class="p-1">Precio: <span>$200.00</span></p>
+					
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-white" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+   				</div>
+
+   				<div class="col-12 col-md-3 text-center p-1 p-sm-3 mt-5 mt-md-0">
+
+   					<img class="productos" data-toggle="tooltip" title="$150.00" data-placement="top" alt="keynote" src="img/keynote.jpg">
+   					<a data-toggle="modal" data-target="#ventana7" class="text-primary">Keynote</a>
+		<div class="modal fade pl-3" tabindex="-1" role="dialog" id="ventana7">
+			<div class="modal-dialog modal-lg" role="document" >
+				<div class="modal-content" >
+					<div class="modal-header">
+						<h5 class="modal-title ml-auto">Keynote</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+
+						</button>
+					</div>
+					<div class="modal-body">
+						
+						<img src="img/keynote.jpg" alt="keynote" class="float-left pr-2">
+						<p class="text-justify p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem 
+						ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est.	
+						</p>
+						<p class="p-1">Precio: <span>$150.00</span></p>
+					
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-white" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+   				</div>
+   				<div class="col-12 col-md-3 text-center p-1 p-sm-3 mt-5 mt-md-0">
+   					<img class="productos" data-toggle="tooltip" title="$400.00" data-placement="top" alt="iosSDK" src="img/iosSDK.jpg">
+   					
+   					<a data-toggle="modal" data-target="#ventana8" class="text-primary">iOS SDK</a>
+		<div class="modal fade pl-3" tabindex="-1" role="dialog" id="ventana8">
+			<div class="modal-dialog modal-lg" role="document" >
+				<div class="modal-content" >
+					<div class="modal-header">
+						<h5 class="modal-title ml-auto">iOS SDK</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+
+						</button>
+					</div>
+					<div class="modal-body">
+						
+						<img src="img/iosSDK.jpg" alt="iosSDK" class="float-left pr-2">
+						<p class="text-justify p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem 
+						ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est.	
+						</p>
+						<p class="p-1">Precio: <span>$400.00</span></p>
+					
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-white" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+   				</div>
+   			</div>
+   		</main>
+   		<footer class="py-4 mt-5 bg-black">
+   			<h6 class="text-center my-2">Todos los derechos reservados &copy;</h6>
+   			<div class="container-fluid my-3">
+		<form class="form-inline">
+			<label class="sr-only" for="buscar">Buscar</label>
+			<label class="pr-1">Buscar:</label>
+			<input type="text" id="buscar" class="form-control w-25 mb-1 mr-sm-1" placeholder="Buscar un producto">
+
+			<button class="btn btn-info mb-1">ir</button>
+		</form>
+	</div>
+   		</footer>
+</body>
+</html>

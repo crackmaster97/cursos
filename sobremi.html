@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Mi sitio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="libs/css/bootstrap.min.css">
+	<script src="libs/jquery-3.3.1.min.js"></script>
+	<script src="libs/popper.js"></script>
+	<script src="libs/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<!--- Aqui va el script -->
+
+	<script>
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();
+		})
+	</script>
+
+</head>
+<body>
+	
+		<header>
+			<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark py-2 py-md-0">
+    		<a href="#" class="navbar-brand px-1 ml-3 mr-0  d-md-none">Mi sitio</a><button class="navbar-toggler bg-dark justify-content-left mr-2 ml-auto"  type="button" data-toggle="collapse" data-target="#mimenu"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="mimenu">
+				<ul class="navbar-nav mr-auto mt-3 mt-md-0">
+					<li class="nav-item d-none d-md-block px-1">
+    					<a href="index.html" class="nav-link px-2 ml-2 py-3"><span id="mis">Mi sitio</span></a>
+    				</li>
+    				<li class="nav-item ">
+    					<a href="index.html" class="nav-link px-2 py-3"><span id="mis1">Cursos</span></a>
+    				</li>
+    				<li class="nav-item ">
+    					<a href="sobremi.html" class="nav-link px-2 py-3"><span id="mis2">Sobre mi</span></a>
+    				</li>
+    				<li class="nav-item ">
+    				<a href="contacto.html" class="nav-link px-2 py-3"><span id="con">Contacto</span></a>
+    				</li>
+    			</ul>
+    		</div>
+    		<div class="d-none d-md-block ">
+    		<img src="img/login.svg" alt="login">
+    		<span class="text-white mr-3">Login</span>
+    	</div>
+    	</nav>
+   		</header>
+   		
+   		<main class="container-fluid main-sobremi">
+   			<div class="row align-items-start">
+   				<div class="col-12 col-md-2 pb-3 bg-columna">
+   					<div class="row">
+   						<div class="col my-3">
+   							<h2 class="text-center pt-4 pb-2">Productos más vendidos</h2>
+   							<div class="caja-sobremi border border-muted rounded text-center p-1 pb-2 pt-3">
+   									
+   									<h3 class="m-0">iOS SDK</h3>
+   									<img class="imgsobremi pb-3 pl-3 pr-3 pt-1" data-toggle="tooltip" title="$400.00" data-placement="bottom" alt="ios" src="img/iosSDK.jpg">
+
+   							</div>
+   						</div>
+   					</div>
+   					<div class="row">
+   						<div class="col my-3">
+   							
+   							<div class="caja-sobremi border border-muted rounded text-center p-1 pb-2 pt-3">
+   									<h3 class="m-0" style="font-size: 1em;">Keynote</h3>
+   									<img class="imgsobremi pb-3 pl-3 pr-3 pt-1" data-toggle="tooltip" title="$150.00" data-placement="bottom" alt="keynote" src="img/keynote.jpg">
+   							</div>
+   						</div>
+   					</div>
+   					<div class="row">
+   						<div class="col my-3">
+   							
+   							<div class="caja-sobremi border border-muted rounded text-center p-1 pb-2 pt-3">
+   									<h3 class="m-0" >Objective C</h3>
+   									<img class="imgsobremi pb-3 pl-3 pr-3 pt-1" data-toggle="tooltip" title="$200.00" data-placement="bottom" alt="objetiveC" src="img/objectiveC.jpg">
+   							</div>
+   						</div>
+   					</div>
+   				</div>
+
+   				<div class="col-12 col-md-8 bg-white">
+   					<div class="row d-none d-md-block">
+   						<div class="col">
+   							<div class="container-fluid p-0">
+								<div id="carrusel" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators">
+											<li data-target="#carrusel" data-slide-to="0" class="active"></li>
+											<li data-target="#carrusel" data-slide-to="1"></li>
+											<li data-target="#carrusel" data-slide-to="2"></li>
+									</ol>
+						<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div><img src="fondos/paisaje1.jpg" class="d-block w-100" alt="paisaje 1"></div>
+								</div>
+								<div class="carousel-item">
+									<div><img src="fondos/paisaje2.jpg" class="d-block w-100" alt="paisaje 2"></div>
+								</div>
+								<div class="carousel-item">
+									<div><img src="fondos/paisaje3.jpg" class="d-block w-100" alt="paisaje 3"></div>
+								</div>
+						</div>
+						<a href="#carrusel"	class="carousel-control-prev" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon"></span>
+								<span class="sr-only">anterior</span>
+						</a>
+						<a href="#carrusel"	class="carousel-control-next" role="button" data-slide="next">
+								<span class="carousel-control-next-icon"></span>
+								<span class="sr-only">siguiente</span>
+						</a>
+								</div>
+							</div>
+   						</div>
+   					</div>
+
+
+   					<div class="row">
+   						<div class="col">
+   							<div class="mt-4 rounded border border-muted todo-sobre-mi">
+   								<h1 class="text-center pt-5 pb-1">Todo sobre mi</h1>
+   								<div class="pl-3 pr-3 pb-1 pt-1">
+   									<img class="float-left pl-2 pr-2 pb-1" alt="foto" src="img/foto.png">
+   									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   									proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   									consequat.</p> <br><p> Duis aute irure dolor in reprehenderit in voluptate velit esse
+   									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   									proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   									tempor</p>
+
+   									<p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   									proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p><p>
+   									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   								</div>
+   							</div>
+   						</div>
+   					</div>
+   				</div>
+
+   				<div class="col-12 col-md-2 pb-3 bg-columna">
+   					<div class="row">
+   						<div class="col my-3">
+   							<h2 class="text-center pt-4 pb-2">Productos relacionados</h2>
+   							<div class="caja-sobremi border border-muted rounded text-center p-1 pb-2 pt-3">
+   									
+   									<h3 class="m-0">Angular JS</h3>
+   									<img class="imgsobremi pb-3 pl-3 pr-3 pt-1" data-toggle="tooltip" title="$275.00" data-placement="bottom" alt="angularjs" src="img/angularjs.jpg">
+
+   							</div>
+   						</div>
+   					</div>
+   					<div class="row ">
+   						<div class="col my-3">
+   							
+   							<div class="caja-sobremi border border-muted rounded text-center p-1 pb-2 pt-3">
+   									<h3 class="m-0">indexedDB</h3>
+   									<img class="imgsobremi pb-3 pl-3 pr-3 pt-1" data-toggle="tooltip" title="$250.00" data-placement="bottom" alt="indexedDB" src="img/indexedDB.jpg">
+   							</div>
+   						</div>
+   					</div>
+   					<div class="row ">
+   						<div class="col my-3">
+   							
+   							<div class="caja-sobremi border border-muted rounded text-center p-1 pb-2 pt-3">
+   									<h3 class="m-0">Javascript DOM</h3>
+   									<img class="imgsobremi pb-3 pl-3 pr-3 pt-1" data-toggle="tooltip" title="$300.00" data-placement="bottom" alt="javascriptDOM" src="img/javascriptDOM.jpg">
+   							</div>
+   						</div>
+   					</div>
+   				</div>
+   			</div>
+
+   		</main>
+
+   		<footer class="py-4 mt-5 bg-black footer">
+        <div class="text-center"> 
+        <a data-toggle="modal" data-target="#modal-p-footer2" class="aviso-a-footer text-white m-auto my-2">Aviso de privacidad</a>
+        <div class="modal fade pl-3" tabindex="-1" role="dialog" id="modal-p-footer2">
+      <div class="modal-dialog modal-lg" role="document" >
+        <div class="modal-content" >
+          <div class="modal-header">
+            <h5 class="modal-title  ml-auto h5-modal">Aviso de privacidad</h5>
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            
+            <p class="footer-modal p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem 
+            ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est.  
+            </p>
+            
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-white" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+      </footer>
+</body>
+</html>
